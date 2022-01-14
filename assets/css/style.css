@@ -338,7 +338,7 @@ h5 {
     color: var(--main-color);
 }
 
-/*Responsive Styles*/
+/*Responsive Styles For Mobile*/
 @media screen and (max-width : 760px) {
     .container {
         width: 100%;
@@ -456,4 +456,34 @@ h5 {
         border-bottom: 2px solid var(--main-color);
     }
 
+}
+
+/*Responsive Styles For Mobile*/
+@media screen and (min-width: 761px) and (max-width:868px) {
+    .nav-main {
+        padding: 0 15px;
+    }
+
+    .hero-main {
+        padding: 0px 20px;
+    }
+
+    .hero-left {
+        padding-right: 0px;
+    }
+
+    .brands-main {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        border-image-slice: 95 10;
+    }
+
+    .collection-main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contact {
+        padding: 0px 25px;
+    }
 }
