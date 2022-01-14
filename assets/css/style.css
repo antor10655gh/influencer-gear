@@ -37,6 +37,7 @@ body {
 
 .nav-right {
     position: relative;
+    right: -450px;
 }
 
 #icon {
@@ -349,6 +350,10 @@ h5 {
     }
 
     /* nav-bar media queries */
+    .nav-right {
+        right: 0;
+    }
+
     .nav-main .nav-left img {
         width: 100px;
         height: 50px;
