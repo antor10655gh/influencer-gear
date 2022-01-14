@@ -26,6 +26,8 @@ body {
 .nav-main {
     display: grid;
     grid-template-columns: 1fr 4fr;
+    position: absolute;
+    top: 0;
 }
 
 .nav-left img {
@@ -338,7 +340,7 @@ h5 {
     color: var(--main-color);
 }
 
-/*Responsive Styles For Mobile*/
+/*---------------Responsive Styles For Mobile--------------*/
 @media screen and (max-width : 760px) {
     .container {
         width: 100%;
@@ -369,6 +371,7 @@ h5 {
 
     .nav-right li a {
         padding: 5px 0px;
+        color: white;
     }
 
     .show-menu {
@@ -384,7 +387,7 @@ h5 {
     input[type=checkbox]:checked~#menu {
         display: block;
         margin-right: 45px;
-        background: rgba(255, 0, 0, 0.151);
+        background: var(--main-color);
     }
 
 
