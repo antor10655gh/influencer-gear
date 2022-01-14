@@ -275,7 +275,7 @@ input[type=checkbox]:checked~#menu {
     border-radius: 15px;
 }
 
-/* contact-form */
+/* ----------------contact-form style-------------- */
 .contact-form {
     margin-top: 30px;
 }
@@ -298,6 +298,44 @@ input {
 input:focus {
     outline: none;
     border-bottom: 2px solid rgb(255, 0, 140);
+}
+
+/* ----------------footer-section style-------------- */
+.footer {
+    background-color: var(--footer-color);
+    text-align: center;
+    color: white;
+}
+
+.footer-details {
+    padding: 30px 0px;
+}
+
+.footer-details h2,
+p,
+h5 {
+    margin: 0;
+}
+
+.footer-details p,
+h5 {
+    color: var(--p-color);
+}
+
+.media-icon {
+    margin-top: 20px;
+}
+
+.media-icon i {
+    font-size: 25px;
+    padding: 0 10px;
+    transition: .5s;
+    color: var(--p-color);
+}
+
+.media-icon i:hover {
+    cursor: pointer;
+    color: var(--main-color);
 }
 
 /*Responsive Styles*/
