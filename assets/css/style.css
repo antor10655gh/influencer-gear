@@ -323,7 +323,7 @@ h5 {
 }
 
 .media-icon {
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 .media-icon i {
@@ -418,7 +418,7 @@ h5 {
 
     /* brands-section media queries */
     .brands-main {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         grid-row-gap: 50px;
         border: none;
     }
