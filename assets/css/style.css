@@ -472,6 +472,10 @@ h5 {
         padding: 0 15px;
     }
 
+    .nav-right {
+        right: 0px;
+    }
+
     .hero-main {
         padding: 0px 20px;
     }
@@ -483,7 +487,8 @@ h5 {
     .brands-main {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        border-image-slice: 95 10;
+        border-image-slice: 120 10;
+        grid-row-gap: 30px;
     }
 
     .collection-main {
